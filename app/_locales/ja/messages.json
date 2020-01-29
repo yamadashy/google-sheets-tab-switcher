@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "スプレッドシート タブ切り替え"
+  },
+  "appShortName": {
+    "message": "google-sheets-tab-switcher"
+  },
+  "appDescription": {
+    "message": "スプレッドシートのタブを素早く切り替え"
+  }
+}

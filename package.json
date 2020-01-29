@@ -1,0 +1,44 @@
+{
+  "name": "google-sheets-tab-switcher",
+  "version": "0.0.0",
+  "description": "Quick tab switcher for Google Sheets",
+  "main": "",
+  "scripts": {
+    "dev": "webextension-toolbox dev",
+    "build": "webextension-toolbox build",
+    "lint": "eslint ./app/scripts/**/*",
+    "lint:fix": "eslint ./app/scripts/**/* --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yamadashy/google-sheets-tab-switcher.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "firefox",
+    "addon",
+    "google",
+    "sheets",
+    "tab"
+  ],
+  "author": "yamadashy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yamadashy/google-sheets-tab-switcher/issues"
+  },
+  "dependencies": {
+    "@types/jquery": "3.3.31",
+    "eventemitter3": "4.0.0",
+    "jquery": "3.4.1"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.3.3",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.3.0",
+    "typescript": "^3.5.1",
+    "webextension-toolbox": "^3.0.0",
+    "webpack-bundle-analyzer": "^3.4.1"
+  }
+}

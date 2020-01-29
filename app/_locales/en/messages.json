@@ -1,0 +1,11 @@
+{
+  "appName": {
+    "message": "Google Sheets Tab Switcher"
+  },
+  "appShortName": {
+    "message": "google-sheets-tab-switcher"
+  },
+  "appDescription": {
+    "message": "Quick tab switcher for Google Sheets"
+  }
+}
